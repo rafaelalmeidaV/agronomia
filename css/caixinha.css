@@ -1,0 +1,380 @@
+section {
+    width: 100%;
+    height: auto;
+}
+
+.fundo {
+    background-image: url(../img/fundo.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -100px;
+
+}
+
+.caixinha {
+
+    box-shadow: 3px 2px 30px grey;
+    background-color: lightgray;
+    width: 500px;
+    height: 200px;
+    margin: auto;
+}
+
+.pontinho{
+    appearance: none;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 10px;
+    height: 10px;
+}
+.pontinho:checked{
+    background-color: #3F5B28;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 7px;
+}
+
+.p {
+    text-align: center;
+}
+
+.btn_caixinha {
+
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #3F5B28;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 38%;
+    
+
+}
+
+.btn_caixinha:hover {
+    background-color: #56A418;
+}
+
+.lista_servico {
+    height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+
+}
+
+.servico {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    background-color: #56A418;
+    box-shadow: 5px 4px 40px grey;
+
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+
+}
+
+.servico1 {
+    width: 400px;
+    height: 200px;
+    background-color: #56A418;
+    display: inline-block;
+    margin-right: 0vw;
+    box-shadow: 5px 4px 40px grey;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+
+}
+
+.servico2 {
+    width: 400px;
+    height: 200px;
+    background-color: #56A418;
+    display: inline-block;
+    margin-right: 0vw;
+    box-shadow: 5px 4px 40px grey;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+
+}
+
+.Personalidades {
+    color: #3F5B28;
+
+}
+
+.show {
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    padding-bottom: 10px;
+}
+
+.textos {
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.pesquisa {
+    margin-top: 175px;
+    height: 230px;
+    width: auto;
+    background-image: url(../img/fundo2.png);
+    background-size: cover;
+
+
+}
+
+.pesquisa2 {
+    margin-top: 35px;
+    margin-left: 38%;
+    display: inline-block;
+
+
+}
+
+.buscador_meio {
+
+    width: 400px;
+    border: 1px solid #fff;
+    padding: 8px 12px;
+    border-radius: 7px;
+
+}
+
+.btn_buscador2 {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #3F5B28;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn_buscador2:hover {
+    background-color: green;
+}
+
+.texto_pesquisa {
+    text-align: center;
+    font-size: large;
+    margin-left: 30px;
+    padding-top: 78px;
+    color: rgb(255, 255, 255);
+}
+
+.img1 {
+    position: relative;
+    display: inline-block;
+    margin-left: 5%;
+    background-image: url(../img/drone.jpg);
+    width: 750px;
+    height: 290x;
+
+}
+
+.textobisonho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 450px;
+    min-width: 580px;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fdfdfd;
+    position: absolute;
+}
+.container_imagens {
+    display: flex;
+    justify-content: center;
+}
+.container2 {
+    display: inline-block;
+}
+
+.img2 {
+    margin-right: 0;
+    background-image: url(../img/pcnomato.jpg);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: green;
+    width: 390px;
+    height: 290px;
+}
+
+.img3 {
+    background-image: url(../img/maquinario.pg.png);
+    margin-left: 20px;
+    background-color: green;
+    width: 390px;
+    height: 290px;
+}
+
+.img1:hover {
+    opacity: 0.8;
+}
+
+.img2:hover {
+    opacity: 0.8;
+}
+
+.img3:hover {
+    opacity: 0.8;
+}
+
+/* .container3{
+    flex-wrap: wrap;
+    float: right;
+    
+} */
+.textoblog1 {
+
+    margin-bottom: 20px;
+    margin-left: 0;
+    height: 290px;
+}
+
+.textoblog2 {
+
+    width: 100%;
+    height: 290px;
+}
+
+.textoimg {
+    margin: 0;
+}
+
+.pesquisa3 {
+    /*position: absolute;
+    margin-left: 45%;
+    margin-top: 50%;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 980px;
+    min-width: 880px;
+
+    position: absolute;
+
+}
+
+.btn_buscador3 {
+    width: 350px;
+    text-align: absolute;
+    left: 100%;
+    top: 100%;
+    margin-right: 30%;
+    margin-top: -40px;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: yellow;
+    font-size: 18px;
+}
+
+.btn_buscador3:hover {
+    color: #fff;
+    background-color: rgba(63, 63, 0, 0.966);
+}
+
+.campo1 {
+    padding: 0px;
+    height: 50%;
+    width: 50%;
+    margin-top: -4px;
+}
+
+.campo1:hover {
+    opacity: 0.8;
+}
+
+.campo2 {
+    float: right;
+    margin-top: -4px;
+    height: 50%;
+    width: 50%;
+}
+
+.campo2:hover {
+    opacity: 0.8;
+}
+
+.testimonial {
+
+
+    height: 700px;
+    width: auto;
+    background-image: url(../img/fundo.png);
+    background-size: cover;
+
+
+
+}
+
+.show2 {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    padding-bottom: 10px;
+
+}
+
+.maquina1 {
+    margin-top: 150px;
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    background-color: #56A418;
+    box-shadow: 5px 4px 40px grey;
+
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+}
+
+.maquina2 {
+    margin-top: 90px;
+    width: 400px;
+    height: 400px;
+    background-color: #56A418;
+    display: inline-block;
+    margin-right: 0vw;
+    box-shadow: 5px 4px 40px grey;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+}
+
+.maquina3 {
+    margin-top: 150px;
+    width: 400px;
+    height: 300px;
+    background-color: #56A418;
+    display: inline-block;
+    margin-right: 0vw;
+    box-shadow: 5px 4px 40px grey;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+}
+
+.maquina1 img:hover{
+    opacity: 0.8;
+}
+.maquina2 img:hover{
+    opacity: 0.8;
+}
+.maquina3 img:hover{
+    opacity: 0.8;
+}

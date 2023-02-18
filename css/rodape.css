@@ -1,0 +1,38 @@
+.rodape_secao{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.logo_rodape{
+    
+    padding-top: 90px;   
+    width: 100px;
+    height: 200px;
+}
+
+
+
+.rodape_referencias {
+    padding-top: 90px;   
+    
+}
+
+.rodape_texto {
+    padding-left: 7%;
+    color: grey;
+
+}
+.btn_rodape {
+    background-color: #3F5B28;
+    float: right;
+    color: white;
+}
+
+.btn_rodape:hover {
+    background-color: #56A418;
+    float: right;
+}
+
+.rodape_titulo{
+    text-align: center;
+}
